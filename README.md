@@ -5,3 +5,5 @@ tokenizer.py: Handles breaking down the raw text from your documents into indivi
 
 
 indexer.py: Likely builds an "inverted index," which is a database mapping each word to the specific documents where it appears.
+
+boolean_search.py: Allows for strict query matching using operators like AND, OR, and NOT (e.g., searching for "space AND exploration").
