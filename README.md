@@ -9,3 +9,5 @@ indexer.py: Likely builds an "inverted index," which is a database mapping each 
 boolean_search.py: Allows for strict query matching using operators like AND, OR, and NOT (e.g., searching for "space AND exploration").
 
 ranking.py: Implements a scoring algorithm (such as TF-IDF) to return the most relevant documents first, rather than just returning a random list of matches.
+
+search_engine.py: The main script that ties all these modules together into a working application.
